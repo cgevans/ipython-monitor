@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from IPython.parallel import Client
+from ipyparallel import Client
 rc = Client(); lv = rc.load_balanced_view()
 
 import os
